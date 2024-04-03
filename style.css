@@ -20,5 +20,29 @@ body{
 .box button{
     background-color: #611512;
     color: white;
-    margin-left: 70px;
+    margin-left: 60px;
+    border-radius: 15px;
+    border-style: outset;
+    border-color: black;
+    height: 50px;
+    width: 200px;
+}
+.box button:hover{
+    background-color: #360c0f;
+    color: rgb(249, 132, 132);
+    cursor: pointer;
+    transition: 0.8s;
+}
+.header{
+    width: 250px;
+    background-color: #7e2a26;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 12px;
+    border-color: black;
+    border-style: double;
+    color: beige;
 }
